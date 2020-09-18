@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/bi002614/Documents/Projects/abertura-de-conta-pj-web/src'
+let g:netrw_dirhist_6='/Users/bi002614/Documents/Projects/abertura-de-conta-pj-web'
+let g:netrw_dirhist_5='/Users/bi002614/Documents/Projects/inter-frontend-cdpro-lgpd/src/components'
+let g:netrw_dirhist_4='/Users/bi002614/Documents/Projects/inter-frontend-cdpro-lgpd/src'
+let g:netrw_dirhist_3='/Users/bi002614/Documents/Projects/inter-frontend-cdpro-lgpd'
+let g:netrw_dirhist_2='/Users/bi002614/Documents/Projects/abertura-de-conta-pj-web/src'
+let g:netrw_dirhist_1='/Users/bi002614/Documents/Projects/abertura-de-conta-pj-web'
+let g:netrw_dirhist_0='/Users/bi002614/Documents/Projects'
+let g:netrw_dirhist_9='/Users/bi002614/Documents'
+let g:netrw_dirhist_8='/Users/bi002614'
