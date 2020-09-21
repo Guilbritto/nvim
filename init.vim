@@ -37,3 +37,15 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 nnoremap <c-b> :NERDTreeToggle<cr>
+
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+if has('nvim')
+  inoremap <silent><expr> <c-space> coc#refresh()
+else
+  inoremap <silent><expr> <c-@> coc#refresh()
+endif
