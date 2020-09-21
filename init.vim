@@ -26,7 +26,6 @@ autocmd vimenter * NERDTree
 
 set hidden
 set number
-set relativenumber
 set mouse=a
 set inccommand=split
 set tabstop=2
@@ -37,4 +36,4 @@ nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
-nnoremap < :NERDTreeToggle<CR>
+nnoremap <c-b> :NERDTreeToggle<cr>
